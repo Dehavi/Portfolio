@@ -31,6 +31,7 @@ Html {
   Box-Sizing: Border-Box;
   Font-Size: 80.5%;
   Scroll-Behavior: Smooth;
+ background-color: #222;
 }
 /***/
 
@@ -39,18 +40,21 @@ Html {
 @Media (Max-Width: 75em) {
   Html {
     Font-Size: 60%;
+background-color: #222;
   }
 }
 
 @Media (Max-Width: 61.25em) {
   Html {
     Font-Size: 58%;
+ background-color: #222;
   }
 }
 
 @Media (Max-Width: 28.75em) {
   Html {
     Font-Size: 55%;
+ background-color: #222;
   }
 }
 
