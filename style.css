@@ -30,31 +30,29 @@
 Html {
   Box-Sizing: Border-Box;
   Font-Size: 80.5%;
+  background-color: #222;
   Scroll-Behavior: Smooth;
- background-color: #222;
 }
 /***/
-
- 
 /***/
 @Media (Max-Width: 75em) {
   Html {
     Font-Size: 60%;
-background-color: #222;
+    background-color: #222;
   }
 }
 
 @Media (Max-Width: 61.25em) {
   Html {
     Font-Size: 58%;
- background-color: #222;
+    background-color: #222;
   }
 }
 
 @Media (Max-Width: 28.75em) {
   Html {
     Font-Size: 55%;
- background-color: #222;
+    background-color: #222;
   }
 }
 
@@ -79,6 +77,7 @@ Body {
   font-size: 4rem;
 	display: inline-block;
 }
+/*dehavi-name animated */
 .animate-text{
   font-size: 4rem;
 	display: inline-block;
@@ -112,7 +111,6 @@ Body {
 	background-color:#150043;
 	overflow: hidden;
 }
-
 @keyframes textType{
 	0%{
 		left: 0;
@@ -137,6 +135,9 @@ Body {
 	100%{
 		margin-top: 0;
 	}
+
+
+
 }
 
 H1{
@@ -149,6 +150,7 @@ H1{
 h4{
   padding:0.5rem 0.5rem ;
 }
+
 
 H2 {
   Font-Family:'raleway';
@@ -165,7 +167,6 @@ P {
   font-weight:bold;
   Color: 151965;
 }
-
 /*DOWNLOAD BUTTON*/
 .download-btn{
   background-color:#150043;
@@ -177,34 +178,12 @@ P {
   border-radius:5px;
   color: #ebeef1;
 }
+
 .download-btn:hover {
   background-color: rgb(40, 67, 218);
   box-shadow: 0 12px 16px 0 #150043;
   color: #ebeef1;
 }
-/*wavelike separator*/
-.custom-shape-divider-top-1674719033 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-top-1674719033 svg {
-  position: relative;
-  display: block;
-  width: calc(127% + 1.3px);
-  height: 138px;
-}
-
-.custom-shape-divider-top-1674719033 .shape-fill {
-  fill: #50EC4D;
-}
-/*wavelike separator end*/
-/* Navigation Bar Styling */
 
 .Nav {
   Display: Flex;
@@ -215,8 +194,10 @@ P {
   Width: 100%;
   Height: Auto;
   Background:#150043;
+
   Z-Index: 10;
 }
+
 Li {
   Display: Inline;
 }
@@ -249,14 +230,13 @@ A:hover {
   Background: #150043;
 }
 
-/* Section 2*/
+/* Section 3*/
 .Project-Title{
-  background-color: #162a37;
+  
   Display: Flex;
   Flex-Direction: Column;
   Justify-Content: Center;
   Align-Items: Center;
-  
   Background: #150043;
 }
 .Projects-Section {
@@ -267,17 +247,17 @@ A:hover {
   Width: 100%;
   Height: 100vh;
   Background: #150043;
-  
 }
 .Projects-Section-Header {
   background-color: #162a37;
-  Max-Width: 650px;
+  Max-Width: 500px;
+  text-align: center;
   Margin: 3rem Auto 6rem Auto;
-  Padding-Top: 10rem;
+  Padding-Top: 8rem;
   Padding-Bottom: 1rem;
-  Border-Radius: 38px;
+  Border-Radius: 30px;
   Word-Spacing: 4px;
-  Letter-Spacing: 3px;
+  Letter-Spacing: 2px;
  Box-Shadow: 0 5px 20px rgba(17, 39, 21, 0.832);
 }
 @Media (Max-Width: 28.75em) {
@@ -285,15 +265,18 @@ A:hover {
     Font-Size: 1rem;
   }
 }
-
 /* Section 2*/
+
 .Projects-Section {
   Text-Align: Center;
-  Padding: 10rem 2rem;
-  background: #150043;
-  
+  Padding: 1rem 1rem;
+  background: #150043; 
 }
-.Projects-Section-Header {
+.Projects-Section-Header{
+background-color:#1f1f1f;
+font-size:60px;
+}
+/* .Projects-Section-Header {
   Max-Width: 330px;
   Margin: 3rem Auto 6rem Auto;
   Border-Bottom: 0 Solid #150043;
@@ -304,10 +287,11 @@ A:hover {
   Word-Spacing: 4px;
   Letter-Spacing: 3px;
   Box-Shadow: 0 5px 20px #150043;
-}
+} */
+
 @Media (Max-Width: 28.75em) {
   .Projects-Section-Header {
-    Font-Size: 4rem;
+    Font-Size: 1rem;
   }
 }
 
@@ -315,56 +299,56 @@ A:hover {
   Display: Grid;
   background-color: #150043;
   Grid-Template-Columns: Repeat(Auto-Fit, Minmax(320px, 1fr));
-  Grid-Gap: 4rem;
-  Width: 100%;
+  Grid-Gap: 2rem;
+  Width: 90%;
   Max-Width: 1290px;
-  margin-top: 5rem;
+  margin-top: 2rem;
   Margin: 0 Auto;
-  Margin-Bottom: 5rem;
+  Margin-Bottom: 1rem;
 }
 @Media (Max-Width: 30.625em) {
   .Projects-Section {
     Padding: 6rem 1rem;
   }
-
+/* 
   .Projects-Grid {
-    Grid-Template-Columns: 1fr;
-  }
+    Grid-Template-Columns: 0.5fr;
+  } */
 }
 .Project {
   background-color: #150043;
+  width:80%;
+  height:60%;
   Box-Shadow: 1px 1px 2px Rgba(0, 0, 0, 0.5);
-  Border-Radius: 28px;
   Box-Shadow: 0 2.8px 2.2px Rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px Rgba(0, 0, 0, 0.048), 0 12.5px 10px Rgba(0, 0, 0, 0.06),
     0 22.3px 17.9px Rgba(0, 0, 0, 0.072), 0 41.8px 33.4px Rgba(0, 0, 0, 0.086),
     0 100px 80px Rgba(0, 0, 0, 0.12);
-  Transition: All 2s, Transform 0.5s, Box_shadow 0.5s;
+    Transition: All 2s, Transform 0.5s, Box_shadow 0.5s;
 }
 .Project:hover {
   Box-Shadow: 6px 6px 20px Rgba(0, 0, 0, 0.6);
-  Transform: Scale(1.08);
+  Transform: Scale(0.80);
 }
 
+
 .Project-Image {
-  Height: Calc(100% - 6.8rem);
-  Width: 100%;
-  Object-Fit: Cover;
-  Border-Top-Right-Radius: 28px;
-  Border-Top-Left-Radius: 28px;
+  Width: 80%;
+  height:60%;
+  Object-Fit: Cover; 
+  padding:0px;
+  Border-Top-Right-Radius: 20px;
+  Border-Top-Left-Radius: 20px;
+  Border-Bottom-Left-Radius: 20px;
 }
 .Project-Title {
   Font-Family: "Poppins", Sans-Serif;
-  Font-Size: 2rem;
+  Font-Size: 1.5rem;
   Text-Align: Center;
-  Padding: 2rem 0.5rem;
+  Padding:20px 50px;
   background-color:#150043;
 }
-.Btn {
-  Display: Inline-Block;
-  Padding: 1rem 2rem;
-  Border-Radius: 2px;
-}
+
 
 /* skills Section */
 .skills-Section {
@@ -484,42 +468,12 @@ h2{
 	opacity: 0;
 	animation: hint 0.2s forwards 2.2s;
 }
-
 @keyframes hint {
 	to {
 		transform: translateY(-5px);
 		opacity: 1;
 	}
 }
-
-/*
-.shape-1{
-  height: 220px;
-  width: 220px;
-  background: linear-gradient( 
-      #13053d,
-      #eb307e
-  );
-  border-radius: 50%;
-  position: absolute;
-  bottom: -100px;
-  left: -80px;
-  z-index: -1;
-}
-.shape-2{
-  height: 180px;
-  width: 180px;
-  background: linear-gradient(
-      #233f4f,
-      #325ea5
-  );
-  border-radius: 50%;
-  position: absolute;
-  top: -100px;
-  right: -50px;
-  z-index: -1;
-}
-*/
 .container *{
   font-family: "raleway",sans-serif;
   color: #ffffff;
@@ -608,6 +562,14 @@ h2{
   Color: #Fff;
   Border: None;
 }
+#Contact:hover
+{
+  color:#008CBA;
+}
+.Contact-Section-Header p:hover{
+  color:#008CBA;
+
+}
 .button {
   background-color: #4CAF50; /* Green */
   border: none;
@@ -668,22 +630,6 @@ h2{
   Transform: Translate Y(8px);
   Color: Red;
 }
-/* Footer Section
-Footer {
-      background-color: #a8a8a8; 
-      text-align: center;
-      left: 0;
-      Border-Top: 0.1px Solid #Bfc8ea;
-      font-weight:lighter;
-      font-size: 2%;
-      Background: #162a37;
-}
-#Foot {
-  Color: #Fff;
-  text-align: center;
-  Font-Family:Sans-Serif;
-}
-*/
 .loader {
   width: 50px;
   height: 48px;
@@ -748,4 +694,18 @@ Footer {
   50% {
     transform: scale(1.2, 1);
   }
+}
+#educationtitle {
+  text-align: center; /* Center-align the title if needed */
+}
+#first{
+  margin-left:40px;
+}
+#sec{
+  margin-left:50pc;
+  margin-top:-20pc;
+} 
+#third{
+  margin-left:70pc;
+  margin-top:-20pc;
 }
