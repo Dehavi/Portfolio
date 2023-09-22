@@ -2,6 +2,7 @@
 <Html Lang="En">
 
 <Head>
+    <!-- Meta tags to define character set, compatibility, and viewport -->
     <Meta Charset="UTF-8" />
     <Meta Http-Equiv="X-UA-Compatible" Content="IE=Edge" />
     <Meta Name="Viewport" Content="Width=Device-Width, Initial-Scale=1.0" />
@@ -9,7 +10,7 @@
     <Title>Dehavi</Title>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
     <Script Src="Https://Kit.Fontawesome.Com/5eb2c51ffb.Js" Crossorigin="Anonymous"></Script>
-    <Link Rel="Stylesheet" Href="style.css" >
+    <Link Rel="Stylesheet" Href="Style.Css" />
 </Head>
 
 <Body>
@@ -17,6 +18,9 @@
         <Ul>
             <Li>
                 <A Href="#Welcome-Section">HOME</A>
+            </Li>
+            <Li>
+                <A Href="#Education">EDUCATION</A>
             </Li>
             <Li>
                 <A Href="#Projects">PROJECTS</A>
@@ -30,29 +34,14 @@
         </Ul>
     </Nav>
 
-
-
- <!--SKILLS SECTION
-
-
-        
-
-
--->
-
-
-
-
-
-
-    <!-- Second Section-->
-    
+    <!-- Second Section-->  
     <Section Id="Welcome-Section">
         <br>
         <br>
         <br>
         <br>
         <br>
+        
         <div class="a">
           
             <div class="fixed-text"><b> Hello!  I am &nbsp;</b></div>
@@ -61,43 +50,83 @@
 	</div>
     <h5>A Front-End Web Developer</h5>
         <div class="loader"></div>
+       
         <P>I design and code simple things and<br> I love what I do.<br></P></a> 
         <a href=".\images/DEHAVI-PORTFOLIORESUME.png" download='Dehavi-Resume' class="download-btn">DOWNLOAD CV
             <i class="fa fa-download"></i>
        </a>
     </Section>
 
+<div id="Education">
+    <p><br></p>
+    <h1 id="education" style="text-align:center">Education</h1>
+    <div id="first">
+        <p >BACHELOR OF ENGINEERING</p> 
+        <p>SSLC</p>
+        <p>HSC</p>
+    <div id="sec">
+        <p >CGPA: 8.79</p>
+        <p>85.3%</p>
+        <p>93.6%</p>
+    </div>
+    <div id="third">  
+        <p>(2020-2024)</p>
+        <p>(2019-2020)</p>
+        <p>(2018-2019)</p>
+    </div>
+    <p><br></p>  
+</div>
+
+
     <Section Id="Projects" Class="Project-Section">
-        <H2 Class="Projects-Section-Header">MY PROJECTS</H2>
+        <H2 Class="Projects-Section-Header">PROJECTS</H2>
     
         <Div Class="Projects-Grid">
-            <A Href="" Target="_blank" Class="Project Project-Tile">
-                <Img Class="Project-Image" src="./images/Grocery App.png" width="130" height="130"ALIGN=CENTER POSITION="FIXED" Alt="Project" />
-                <P Class="Project-Title">
-               GROCERY APP(Kotlin)
-    
-                </P>
-            </A>
+            <a href="https://dehavi.github.io/Image-Search-App/" target="_blank" class="Project Project-Tile">
+                <img class="Project-Image" src="./images/imgFinder.png" width="130" height="130" alt="Project" />
+                <p class="Project-Title">
+                    <br>      
+                    Image-searching App<br>(Javascript)
+                </p>
+            </a>
     
             <A Href="" Target="_blank" Class="Project Project-Tile">
                 <Img Class="Project-Image" src="./images/Portfolio(1).png" width="130" height="130"ALIGN=CENTER POSITION="FIXED" Alt="Project" />
                     
                 <P Class="Project-Title">
-    
-                    PORTFOLIO(HTML,CSS)
+                    <br>
+                    Portfolio<br>(HTML,CSS)
     
                 </P>
             </A>
     
-            <A Href="" Target="_blank" Class="Project Project-Tile">
-                <Img Class="Project-Image" src="./images/rqgenerator.png" width="130" height="130"ALIGN=CENTER POSITION="FIXED" Alt="Project" />
-                <P Class="Project-Title">
-               RANDOM QUOTE GENERATOR(HTML,CSS,JS)
+                <a href="https://dehavi.github.io/RandomQuoteGenerator/" target="_blank" class="Project Project-Tile">
+                    <Img Class="Project-Image" src="./images/rqgenerator.png" width="130" height="130"ALIGN=CENTER POSITION="FIXED" Alt="Project" />
+                    <P Class="Project-Title">
+                        <br>
+                      Random Quote generator<br>(JS)
+                    </P>
+                </a>
 
-                </P>
+            <a href="https://newweatherappreact.netlify.app/" target="_blank" class="Project Project-Tile">
+                <img class="Project-Image" src="./images/WeatherApp.png" width="130" height="130" alt="Project" />
+                <p class="Project-Title">
+                    <br>
+                    Weather App<br>(React)
+                </p>
+            </a>
+                <A Href="" Target="_blank" Class="Project Project-Tile">
+                    <Img Class="Project-Image" src="./images/musicplayerimage.png" width="130" height="130"ALIGN=CENTER POSITION="FIXED" Alt="Project" />
+                        
+                    <P Class="Project-Title">
+                        <br>
+                       Music Player<br>(React)
+                    </P>
             </A>
 
-        </Div>    
+        </Div>
+    
+    
     </Section>
 
 <!--SKILLS SECTION-->
@@ -105,7 +134,7 @@
     <h2>MY SKILLS</h2><br>
     <div class="our-skills">
         <div class="skill">
-            <p>JAVA</p>
+            <p>Java</p>
             <div class="progress-line" style="
                         --bg: #ef5480;
                         --wd: 85%;
@@ -114,36 +143,32 @@
             </div>
         </div>
         <div class="skill">
-            <p>HTML,CSS,JS</p>
+            <p>Html,css,Javascript</p>
             <div class="progress-line" style="
                         --bg: #5BC0F8;
-                        --wd: 88%;
-                        --tx: '88%'">
+                        --wd: 85%;
+                        --tx: '85%'">
                 <span></span>
             </div>
 
         </div>
         
         <div class="skill">
-            <p>DBMS(SQL)</p>
+            <p>React</p>
             <div class="progress-line" style="
                         --bg: #5fe7b9;
-                        --wd: 79%;
-                        --tx: '79%'">
+                        --wd: 75%;
+                        --tx: '75%'">
                 <span></span>
             </div>
         </div>
-    </div>
+  
+   
+</div>
 </Section>
 
 <!--skill end-->
-
-
-
-
     <!-- Third Section-->
-
-
     <Section Id="contact" Class="Contact-Section">
         <Div Class="Contact-Section-Header">
             <H2 Id="Contact">I am not hard to find, let's design something truly spectacular!</H2>
@@ -156,23 +181,6 @@
         </Div>
     </Section>
    
-    <!-- END CONTACT SECTION -->
-
-
-    <!-- START FOOTER SECTION
-
-    <Footer>
-        
-        <P Id="Foot">
-         Copyright © 2023 Dehavi. All rights reserved.
-            <A Id="Fot">
-            </A>
-        </P>
-    
-    </Footer>
-
-    END FOOTER SECTION
--->
 
 </Body>
 
